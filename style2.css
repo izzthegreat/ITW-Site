@@ -9,23 +9,30 @@ h1.title {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
 }
 
-table {
+h1#C {
+    font-size: 30px;
+}
+
+
+table, tr, td{
     margin: auto;
     align-content: center;
     font-size: 24px;
-}
-
-table, tr, td {
     border-color: white;
-    border: 0;
+    border-style: solid;
+    border-width: 0px;
+    background-color: white
 }
 
-table#thick {
-    border-width: 15pt;
-    border-color: gold;
+table.thick{
+    border-width: 4px;
 }
 
-a:link {
+tr.thick,td.thick {
+    background-color: black;
+}
+
+a:link {    
     color: black;
     text-decoration: none;
     background-color: white;

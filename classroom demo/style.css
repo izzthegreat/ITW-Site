@@ -1,0 +1,34 @@
+.festive {
+    color: red;
+    font-size: 24px;
+    text-decoration: green
+}
+
+p {
+    color: #26baf1;
+    font-family: Verdana;
+    font-size: 56px;
+    font-style: bold;
+}
+
+body {
+    background-color:red;
+}
+
+.form {
+    margin: auto;
+    width: 400px;
+    background-color: blue;
+    color: white;
+    border-width: 4px; 
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", serif;
+}
+
+.submit {
+    background-color: white;
+    color: blue;
+    font-family: inherit
+}

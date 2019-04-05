@@ -1,67 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
-        <head>
-            <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title>ITW Technology Scholars</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-            <nav>
-                    <table>
-                            <tr>
-                                <th><a href="index.html">HOME</a></th>
-                                <th><a href="classes.html">CLASSES</a></th>
-                                <th><a href="pricing.html">PRICING</a></th>
-                                <th><a href="about.html">ABOUT ME</a></th>
-                            </tr>
-                        </table>
-            </nav>
-            <H1>ITW Technology Scholars</H1>
-        </head>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstyle.css">
+    <script src="main.js"></script>
+</head>
 <body>
-
-        <h2 id="C">Classes</h2>
-
-        <p>We provide several classes on computers and mobile technology that is geared toward
-            <br>facilitating communication between laymen and IT.</p>
-
-        <h3>Basic Tech Jargon for Non-IT Professionals</h3>
-        <p>Is your SQL server down? Do you need to ping your IP? Has it been a awhile since you defragged?
-        <br>Or worse yet, when your trusty IT asks these questions, do even know what it means?
-        <br>Come and learn the language of tech.</p>
-
-        <h3>Virus Protection & Removal</h3>
-        <p>Does your computer freeze up with every third file you download? Do you dread the blue screen
-        <br>and the spinning wheel? Do you know how to protect yourself? Learn the tips and tricks the
-        <br>professionals use to remove viruses and protect from infection.
-
-        <h3>Mobile Literacy</h3>
-        <p>In the 1990's we were amazed to have desktop computer with a GIGABYTE of hard drive space. Now,
-        <br>the phone in your pocket can blow those old pcs away with ease. But do you know how to harness all
-        <br>that power? Learn the ins and outs of IOS, Android, and Windows mobile and take full advantage of
-        <br>the computer in your pocket.</p>
-        
-        <h3>Macintosh for Windows Users</h3>
-        <p>I'll admit it, I made this one out of spite.</p>
-            
-        <p>For so long, the cult of Apple has convinced us that their world is foreign to us PC goers. Lucky
-        <br>for you I'm here to translate. Come see the Rosetta stone that translates the mysteries of Mac OSX
-        <br>into terms even a Windows user can understand.</p>
-        
-        
-        
-
-        <footer>
-                <table>
-                        <tr>
-                            <th><a href="index.html">HOME</a></th>
-                            <th><a href="classes.html">CLASSES</a></th>
-                            <th><a href="pricing.html">PRICING</a></th>
-                            <th><a href="about.html">ABOUT ME</a></th>
-                        </tr>
-                    </table>
-        
-        <h6> &copy;2019 ITW Tecnology Scholars LLC.</h6>
-            </footer>
+    <div class="container-fluid">
+        <!-- Top Navigation Bar -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light short" >
+            <div class="collapse navbar-collapse" id="collapsenav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End of Top Navigation Bar -->
+        <div class="row">
+            <div class="col-12">
+                <br>
+            </div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col-sm-12">
+                <H1 class="title">
+                    <img src="img/ITW_Logo.jpg" class="short">
+                    ITW Technology Scholars
+                    <img src="img/ITW_Logo.jpg" class="short">
+                </H1>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center h1">
+                Classes
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12"><br></div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 text-center">
+                We provide several classes on computers and mobile technology that is geared toward facilitating communication between laymen and IT.
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-12"><br></div>
+        </div>
+        <div class="row tall">
+            <div class="col-1"></div>
+            <div class="col-4 text-center h3">
+                Basic Tech Jargon for<br>Non-IT Professionals
+            </div>
+            <div class="col-2"></div>
+            <div class="col-4 text-center h3">
+                Virus Protection & Removal
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-4 text-justify description">
+                Is your SQL server down? Do you need to ping your IP? Has it been a awhile since you defragged? Or worse yet, when your trusty IT asks these questions, do even know what it means? Come and learn the language of tech.
+            </div>
+            <div class="col-2"></div>
+            <div class="col-4 text-justify description">
+                Does your computer freeze up with every third file you download? Do you dread the blue screen and the spinning wheel? Do you know how to protect yourself? Learn the tips and tricks the professionals use to remove viruses and protect from infection.
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-12"><br></div>
+        </div>
+        <div class="row tall">
+            <div class="col-1"></div>
+            <div class="col-4 text-center h3">
+                Mobile Literacy
+            </div>
+            <div class="col-2"></div>
+            <div class="col-4 text-center h3">
+                Macintosh for Windows Users
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+                <div class="col-1"></div>
+            <div class="col-4 text-justify description">
+                In the 1990's we were amazed to have desktop computer with a GIGABYTE of hard drive space. Now, the phone in your pocket can blow those old PCs away with ease. But do you know how to harness all that power? Learn the ins and outs of IOS, Android, and Windows mobile and take full advantage of that computer in your pocket.
+            </div>
+            <div class="col-2"></div>    
+            <div class="col-4 text justify description">
+                I'll admit it, I made this one out of spite.
+                <br><br>
+                For so long, the cult of Apple has convinced us that their world is foreign to us PC goers. Lucky for you I'm here to translate. Come see the Rosetta stone that translates the mysteries of Mac OSX into terms even a Windows user can understand.
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-12"><br></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+<footer>
+    <ul>
+        <li class="nav-item bottom">
+            <a href="#" class="nav">
+                Home
+            </a>
+        </li>
+        <li class="nav-item bottom">
+            <a href="classes.html" class="nav">
+                    Classes
+                </a>
+            </li>
+            <li class="nav-item bottom">
+                <a href="pricing.html" class="nav">
+                    Pricing
+                </a>
+            </li>
+            <li class="nav-item bottom">
+                <a href="about.html" class="nav">
+                    About Me
+                </a>
+            </li>
+        </ul>
+        <span id="copy">&copy;2019 ITW Tecnology Scholars LLC.</span>
+</footer>
 </html>

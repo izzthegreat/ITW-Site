@@ -1,16 +1,92 @@
+/* CSS Reset*/
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+  
+body {
+    margin: 0;
+    font: 16px/1 sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h1,h2,h3,h4,p,
+  blockquote,figure,
+  ol,ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  main,
+  li {
+    display: block;
+  }
+  
+  h1,h2,h3,h4 {
+    font-size: inherit;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  a, button {
+    color: inherit;
+    transition: .3s;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+  }
+  
+  ::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+
+/* End CSS Reset*/
+
+
 body{
     color: white;
+    background-color: #343a40;
     text-align: center;
-    font-family: "Verdana", "sans-serif";
+    font-family: "Calibri", "sans-serif";
+}
+
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px; 
 }
 
 ul{
     list-style:none;
+    margin: auto;
 }
 
 h1 {
     font-variant: small-caps;
 }
+
 a:link {    
     color: #212529;
     text-decoration: none;
@@ -33,19 +109,42 @@ a:hover {
     margin-right: 40px;
 }
 
+nav.short {
+    height: 36px;
+}
 .nav-item:hover{
     background-color: #343a40;
 }
 
+img.short{
+    height: 60px;
+}
 
 div.center{
     text-align: center;
+}
+
+.description {
+    display: inline-block;
+    width: 600px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.tall {
+    padding-top: 15px;
+    vertical-align: baseline;
 }
 
 img.center {
     display: block;
     margin: auto;
     margin-bottom: 40px;
+}
+
+img#head {
+    height: 200px;
 }
 
 #copy {
@@ -67,4 +166,24 @@ a.nav:visited {
 
 a.nav:hover {
     color: white
+}
+
+table{
+    margin: auto;
+}
+
+.thick tr, .thick td {
+    
+    align-content: center;
+    font-size: 24px;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px
+}
+p#about{
+    display: block;
+    margin: auto;
+    width: 600px;
+    text-align: justify;
+    font-family: "Calibri","sans-serif";
 }
